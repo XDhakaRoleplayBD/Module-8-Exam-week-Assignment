@@ -243,20 +243,24 @@ class Module6_2 extends StatelessWidget {
                         children: [
                           Image.network(
                             "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSuZWglglxu46XbviQAlA0I062gqfv2N6slc1ji5jxoF7IZ7qW3",
-                            height: 80,
+                            height: 130,
                             width: double.infinity,
-                            fit: BoxFit.contain,
+                            fit: BoxFit.fill,
                           ),
+                          SizedBox(height: 5,),
                           Text("Travel", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),),
+                          SizedBox(height: 5,),
                           Text(
                             "Exploring new places around the world",
-                            style: TextStyle(fontSize: 12),
+                            style: TextStyle(fontSize: 10),
                             textAlign: TextAlign.left,
                           ),
+                          SizedBox(height: 5,),
                           Center(
                             child: ElevatedButton(
                               onPressed: () {},
                               style: ElevatedButton.styleFrom(
+                                minimumSize: Size(double.infinity, 35),
                                 backgroundColor: Colors.white70,
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.zero,
@@ -281,21 +285,25 @@ class Module6_2 extends StatelessWidget {
                         children: [
                           Image.network(
                             "https://static.vecteezy.com/system/resources/thumbnails/070/314/753/small/high-resolution-image-of-a-professional-camera-with-a-sleek-lens-on-a-wood-surface-blurred-lights-in-the-background-free-photo.jpg",
-                            height: 80,
+                            height: 130,
                             width: double.infinity,
-                            fit: BoxFit.contain,
+                            fit: BoxFit.fill,
                           ),
+                          SizedBox(height: 5,),
                           Text("Photography", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),),
+                          SizedBox(height: 5,),
                           Text(
                             "Capturing moments through the lens",
-                            style: TextStyle(fontSize: 12),
+                            style: TextStyle(fontSize: 10),
                             textAlign: TextAlign.left,
                           ),
+                          SizedBox(height: 5,),
                           Center(
                             child: ElevatedButton(
                               onPressed: () {},
                               style: ElevatedButton.styleFrom(
                                 backgroundColor: Colors.white70,
+                                minimumSize: Size(double.infinity, 35),
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.zero,
                                 ),
